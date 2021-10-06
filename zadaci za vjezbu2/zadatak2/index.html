@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 2</title>
+</head>
+<body>
+  <h2>Software order form</h2>
+
+  <form action="">
+    <!-- licence details -->
+    <fieldset>
+        <legend>License details</legend>
+        <ul>
+            <li>Email:<input type="email" name="email" id="email" placeholder="example@gmail.com" required></li>
+            <li>Website:<input type="url" name="ulr" id="url" placeholder="http://www.example.com" required></li>
+            <li>Number of licenses:<input type="number" name="number" id="text" min="1" max="10" placeholder="(1-10)" required></li>
+        </ul>
+    </fieldset>
+    <!--  biling details -->
+    <fieldset>
+        <legend>Biling details</legend>
+        <ul>
+            <li>Name:<input type="text" name="name" id="name" placeholder="First Last" required></li>
+            <li>Address: <input type="text" name="address" id="address" placeholder="address" required></li>
+            <li>Postal code: <input type="text" name="postal_code" id="postal_code" required></li>
+            <li><label for="country">Country</label>
+                <select name="country" id="" required>
+                    <option value="mne">Montenegro</option>
+                    <option value="srb">Serbia</option>
+                    <option value="cro">Croatia</option>
+                    <option value="north_macedonia">Macedonia</option>
+                    <option value="slo">Slovenia</option>
+                </select></li>
+            <li>Phone (optional)<input type="text" name="phone" id="phone" placeholder="+country code number "></li>
+        </ul>
+    </fieldset>
+    <!-- Payment details -->
+    <fieldset>
+        <legend>Payment details</legend>
+        <ul>
+            <li>Card number:<input type="text" name="card_number" id="card_number" placeholder="16 numbers on the front of your card" required></li>
+            <li>CVV: <input type="text" name="cvv" id="cvv" placeholder="3 numbers on the back of your card" required></li>
+            <li>Expiry date: <input type="date" name="exp_date" id="exp_date" placeholder=""></li>
+         </ul>
+    </fieldset>
+  </form>
+</body>
+</html>

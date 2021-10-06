@@ -1,0 +1,15 @@
+/* ul {font-weight: bold;}
+
+li {color: green;}
+
+#myID {color: red;}
+
+.myClass { color: yellow;}  */
+
+/* ul li, ol li{color: red; background-color: grey;}
+
+ol > li { color: blue; background-color: yellow;} */
+
+/* li.item + li { color: green; background-color: red;} */
+
+li.item ~ li { color: green; background-color: red;}
